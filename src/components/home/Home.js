@@ -44,7 +44,7 @@ function TransactionsList() {
             <h2>Representative: {transaction.representative}</h2>
             <h2>Company: {transaction.asset_description}</h2>
             <h2>Date: {transaction.disclosure_date}</h2>
-            <h2>Amout: {transactions.amount}</h2>
+            <h2>Amout: {transaction.amount}</h2>
           </div>
         );
       })}
